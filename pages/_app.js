@@ -1,5 +1,5 @@
-import '../styles/globals.css'
 import '../styles/antd.css'
+import '../styles/globals.css'
 
 import { SessionProvider } from "next-auth/react"
 import Wrapper from '../components/Wrapper'
