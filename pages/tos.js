@@ -3,7 +3,7 @@ import Head from 'next/head'
 import classes from '../styles/PrivacyPolicy.module.scss'
 
 const Terms = () => {
-    return <>   <Head><title>Rweeter's terms of service</title>
+    return <>   <Head><title>Rweeter&apos; terms of service</title>
         <meta name="description" content="Rweeter's terms of service" />
     </Head>
         <h2 className={classes.privacyheadline}>Who May Use the Services
