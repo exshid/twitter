@@ -79,7 +79,6 @@ h5,
 h6 {
     margin-top: 0;
     margin-bottom: 0.5em;
-    color: rgba(0, 0, 0, 0.85);
     font-weight: 500;
 }
 
@@ -3391,8 +3390,6 @@ html {
     text-align: center;
     vertical-align: middle;
     background: #ccc;
-    width: 32px;
-    height: 32px;
     line-height: 32px;
     border-radius: 50%;
 }
@@ -11021,14 +11018,12 @@ span.ant-radio+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    color: rgba(0, 0, 0, 0.85);
     font-size: 14px;
     font-variant: tabular-nums;
     line-height: 1.5715;
     list-style: none;
     font-feature-settings: 'tnum';
     position: relative;
-    background: #fff;
     border-radius: 2px;
 }
 
@@ -11044,10 +11039,6 @@ span.ant-radio+* {
 .ant-card-hoverable:hover {
     border-color: transparent;
     box-shadow: 0 1px 2px -2px rgba(0, 0, 0, 0.16), 0 3px 6px 0 rgba(0, 0, 0, 0.12), 0 5px 12px 4px rgba(0, 0, 0, 0.09);
-}
-
-.ant-card-bordered {
-    border: 1px solid #f0f0f0;
 }
 
 .ant-card-head {
@@ -11304,15 +11295,8 @@ span.ant-radio+* {
 
 .ant-card-meta-title {
     overflow: hidden;
-    color: rgba(0, 0, 0, 0.85);
-    font-weight: 500;
-    font-size: 16px;
     white-space: nowrap;
     text-overflow: ellipsis;
-}
-
-.ant-card-meta-description {
-    color: rgba(0, 0, 0, 0.45);
 }
 
 .ant-card-loading {
@@ -24134,9 +24118,7 @@ textarea.ant-input {
 .ant-layout-header {
     height: 64px;
     padding: 0 50px;
-    color: rgba(0, 0, 0, 0.85);
     line-height: 64px;
-    background: #001529;
 }
 
 .ant-layout-footer {
@@ -26795,7 +26777,6 @@ textarea.ant-mentions {
 .ant-page-header-heading-title {
     margin-right: 12px;
     margin-bottom: 0;
-    color: rgba(0, 0, 0, 0.85);
     font-weight: 600;
     font-size: 20px;
     line-height: 32px;
@@ -33006,6 +32987,314 @@ div.ant-typography-edit-content.ant-typography-rtl {
 .ant-upload-list-rtl.ant-upload-list-picture-card .ant-upload-list-item-file+.ant-upload-list-item-name {
     margin: 8px 0 0;
     padding: 0;
+}
+
+
+.ant-layout-header,
+.ant-layout-footer,
+.ant-row,
+body {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: #111;
+}
+
+.ant-popover-content {
+    box-shadow: 0 4px 40px rgb(119 132 157 / 20%);
+}
+
+.ant-popover-arrow-content {
+    --antd-arrow-background-color: #000;
+}
+
+.ant-card-meta-title {
+
+    font-weight: 200;
+    font-size: 1.4rem;
+
+}
+
+.ant-card-meta-description p {
+    font-weight: 200;
+}
+
+.ant-popover-inner-content,
+.ant-popover-title {
+    color: white;
+    border-bottom: none;
+}
+
+.ant-popover-inner {
+    background-color: #000;
+    color: white;
+
+}
+
+.ant-card {
+    color: white;
+    background: #111;
+    margin: 10px 0;
+}
+
+.ant-card-head {
+    border-bottom: none;
+
+}
+
+.ant-card-meta-detail>div:not(:last-child) {
+    margin-bottom: 0;
+}
+
+.ant-spin {
+    color: #690232;
+}
+
+
+.ant-avatar {
+    height: 66px;
+    width: 66px;
+}
+
+.ant-card-meta {
+    width: fit-content;
+}
+
+.ant-card-meta-title {
+    color: white;
+}
+
+.ant-card-body {
+    font-size: 1rem;
+}
+
+.ant-card-bordered {
+    border: none;
+}
+
+.ant-card-meta-avatar {
+    margin-bottom: 10px;
+}
+
+.ant-card {
+    transition: .5s;
+}
+
+.ant-card:hover {
+    background-color: #222;
+}
+
+.ant-card-meta-description {
+    color: grey
+}
+
+
+.ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background-color: #480323 !important;
+}
+
+.ant-form-item-label>label {
+    color: white;
+}
+
+.ant-menu-item:hover {
+    background-color: #222 !important;
+}
+
+.ant-menu-item,
+.ant-menu-item-selected {
+
+    border-radius: 16px;
+}
+
+.primary,
+.ant-btn-primary {
+
+    border-color: #480323 !important;
+    background: #480323 !important;
+}
+
+.ant-card {
+    border-radius: 16px;
+
+}
+
+.ant-divider-horizontal.ant-divider-with-text {
+    color: white;
+    font-size: 22px;
+    border-top-color: #870641 !important;
+    font-weight: 700;
+
+}
+
+.ant-menu-item-selected:hover,
+.primary:hover,
+.ant-btn-primary:hover,
+.ant-btn-primary:focus {
+
+    border-color: #690232 !important;
+    background: #690232 !important;
+}
+
+.ant-input:hover {
+    border-color: #690232 !important;
+
+}
+
+.ant-form-item-control-input {
+    min-height: unset;
+}
+
+.ant-form-item-label,
+.visually-hidden,
+.visually-hidden-focusable:not(:focus):not(:focus-within) {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+}
+
+.ant-modal-footer .ant-btn {
+    color: white;
+    border-color: transparent;
+    background: #111;
+
+}
+
+.ant-modal .ant-btn:hover,
+.ant-modal .ant-btn:focus {
+
+    color: white;
+    border-color: #480323;
+}
+
+.ant-modal-close-icon {
+    color: white;
+}
+
+.ant-modal-footer {
+    border-top: none;
+
+}
+
+.ant-modal-body,
+.ant-modal-header {
+    border-bottom: 1px solid #870641;
+
+}
+
+.ant-modal-title,
+.ant-modal-header,
+.ant-modal,
+.ant-modal-content {
+    color: white;
+    background-color: #111;
+}
+
+.ant-page-header-heading-sub-title {
+    color: grey;
+}
+
+.ant-page-header-heading-title {
+    color: white;
+}
+
+.ant-layout-header .ant-affix {
+    background-color: #111;
+}
+
+.ant-layout-header {
+    padding: 0;
+}
+
+.ant-menu-item {
+    font-size: 1rem;
+}
+
+.ant-input-affix-wrapper {
+    color: white;
+    background-color: #111;
+    border: 2px solid #480323;
+}
+
+.ant-input {
+    color: white !important;
+    background-color: #111 !important;
+    border: 2px solid #480323;
+
+}
+
+.ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled):hover,
+.ant-input:hover {
+    border-color: #710336;
+}
+
+.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(.ant-input-affix-wrapper-borderless).ant-input-affix-wrapper .ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(.ant-input-affix-wrapper-borderless).ant-input-affix-wrapper:hover,
+input#normal_login_email.ant-input {
+    background: #111;
+    background-color: #111;
+}
+
+.ant-message-success .anticon {
+
+    color: #480323 !important;
+}
+
+.ant-message-notice-content {
+    color: white;
+    background-color: #111;
+}
+
+.ant-card-meta-description {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#nest-messages.ant-form-horizontal.tweet-form {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.ant-col-16,
+.ant-col-8 {
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: white;
+}
+
+#nest-messages_tweet {
+
+    background: #111;
+    border: 3px solid #480323;
+    color: white;
+    border-radius: 8px;
+    font-size: 1.2rem;
+}
+
+.ant-card-body:hover {
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    font-size: 1.2rem !important;
+}
+
+footer a:hover {
+    color: #480323;
 }
 
 
