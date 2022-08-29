@@ -1,0 +1,22 @@
+.spin {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    p {
+
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}
+
+
+.tweetdate {
+    margin-left: 5px;
+}
+
+.tweettext {
+    word-break: break-all;
+}
