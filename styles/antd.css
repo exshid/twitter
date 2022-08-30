@@ -32994,7 +32994,7 @@ div.ant-typography-edit-content.ant-typography-rtl {
 .ant-layout-footer,
 .ant-row,
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
     color: white;
     background-color: #111;
 }
@@ -33009,13 +33009,13 @@ body {
 
 .ant-card-meta-title {
 
-    font-weight: 200;
+    font-weight: 300;
     font-size: 1.4rem;
 
 }
 
 .ant-card-meta-description p {
-    font-weight: 200;
+    font-weight: 300;
 }
 
 .ant-popover-inner-content,
