@@ -10,8 +10,7 @@ const options = {
             clientSecret: process.env.GITHUB_SECRET,
         })
     ], adapter: MongoDBAdapter(clientPromise),
-
-
+    secret: process.env.NEXTAUTH_SECRET
 }
 const rweeterAuth = (req, res) => NextAuth(req, res, options)
 
